@@ -82,7 +82,11 @@
     }
     #kontejner-forma{
         flex-direction: column;
+        #mapa{
+            width: 90%;
+        }
     }
+    
 }
 @media screen and (max-width: 580px){
     #header-holder{
@@ -114,5 +118,9 @@
     }
     #kontejner-forma{
         flex-direction: column;
+        #mapa{
+            width: 90%;
+        }
     }
+    
 }
