@@ -1,4 +1,4 @@
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1900px){
     h1{
         font-size: 75px;
         top:10%;
@@ -43,8 +43,10 @@
     }
     #kontejner-forma{
         flex-direction: column;
+        #forma{
+            margin-left:0px;
+          }
         #mapa{
-            width: 90%;
             display: flex;
             justify-content: center;
         }
