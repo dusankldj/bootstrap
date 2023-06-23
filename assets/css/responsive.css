@@ -22,6 +22,10 @@
     .sirina{
         width: 350px;
     }
+    .sirina2{
+        width: 230px;
+        margin:0px 50px;
+    }
 }
 @media screen and (max-width: 1000px){
     h1{
@@ -90,7 +94,13 @@
         display: flex;
         justify-content: center;
     }
-    
+    #kontejner-recenzije{
+        display: flex;
+        flex-direction: column;
+    }
+    .sirina2{
+        width: 500px;
+    }
 }
 @media screen and (max-width: 580px){
     
@@ -128,8 +138,11 @@
     #mapa{
         width: 250px;
         height: 300px;
-        margin-bottom:50px;
+        margin-bottom:90px;
         display: flex;
         justify-content: center;
+    }
+    .sirina2{
+        width: 350px;
     }
 }
