@@ -61,3 +61,16 @@ h3{
 #forma{
   margin-left:75px;
 }
+ul{
+  list-style-type:none;
+}
+ul li{
+  display: inline;
+}
+footer{
+   margin-bottom:-100px;
+}
+.crveno-bg{
+  background-color: #EA3C12;
+  color:#fff;
+}
