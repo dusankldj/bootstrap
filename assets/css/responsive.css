@@ -50,7 +50,7 @@
     #kontejner-forma{
         flex-direction: column;
         #mapa{
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: center;
         }
@@ -90,6 +90,8 @@
         flex-direction: column;
         #mapa{
             width:450px;
+            display: flex;
+            justify-content: center;
         }
     }
     
@@ -128,6 +130,8 @@
             width: 250px;
             height: 300px;
             margin-bottom:50px;
+            display: flex;
+            justify-content: center;
         }
     }
     
