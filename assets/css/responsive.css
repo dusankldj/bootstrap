@@ -3,6 +3,9 @@
         font-size: 75px;
         top:10%;
     }
+    #kontejner-forma{
+        margin-left:60px !important;
+    }
 }
 @media screen and (max-width: 1200px){
     h1{
@@ -21,6 +24,9 @@
     }
     .sirina{
         width: 350px;
+    }
+    #kontejner-forma{
+        margin-left:50px;
     }
 }
 @media screen and (max-width: 1000px){
@@ -78,7 +84,7 @@
         margin-right:10px;
     }
     .sirina{
-        width: 600px;
+        width: 500px;
     }
     #kontejner-forma{
         flex-direction: column;
