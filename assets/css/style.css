@@ -1,76 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
   body{
     font-family: 'DM Sans', sans-serif;
-  }
+}
 h1{
-    position: absolute;
-    font-size: 57.5px;
-    top:8%;
-    left:4%;
+    top:10%;
+    left:5%;
+    font-size:5.2vw;
+}
+#usluge{
+    font-size: 1.5vw;
+}
+.crvena{
+    color:#EA3C12 !important;
+}
+.crvena-bg{
+    background-color: #EA3C12;
     color:#fff;
-    text-shadow: 3px 3px 20px #000;
-    line-height: 1.55;
+    border:none;
 }
-.crveno{
-  color:#EA3C12;
+.usluge-link{
+    font-size: 1.5vw;
 }
-a{
-  text-decoration-color:#EA3C12 ;
+#slider {
+    height: 100vh;
+  }
+  .sector-container {
+    display: flex;
+    flex-wrap: wrap;
 }
-.margine-ld{
-  margin:50px 20px;
+.form-container {
+    flex-basis: 50%;
+    padding: 20px;
 }
-#boja-texta-forme{
-  color:#EA3C12;
-  width: 70%;
-  margin:0px auto;
+.iframe-container {
+    flex-basis: 50%;
+    border: none;
+    height: 500px;
 }
-#boja-texta-forme::placeholder{
-  color:#EA3C12;
+iframe{
+    height: 35vw;
 }
-#dugme button{
-  width: 40%;
+#f{
+    display: flex;
+    justify-content: center;
 }
-h3{
-  color:#EA3C12;
+input[type=text],input[type=password],input[type=email]{
+    color:#EA3C12;
 }
-#button{
-  background-color: transparent;
-  color:#EA3C12;
-  background-color: transparent;
-  border:none;
-  transition: 0.5s ease-in-out;
+input[type=text]::placeholder,input[type=password]::placeholder,input[type=email]::placeholder{
+    color:#EA3C12;
 }
-#button:hover{
-  background-color: #EA3C12;
-  color:#fff;
+select,textarea{
+    color:#EA3C12;
 }
-.modal-button{
-  background-color: #fff;
-  color:#EA3C12;
-  transition:0.5s ease-in-out;
-  border:none;
+#number,#message{
+    color:#EA3C12;
 }
-.modal-button:hover{
-  background-color: #EA3C12;
-  color:#fff;
+#number::placeholder,#message::placeholder{
+    color:#EA3C12;
 }
-#mapa{
-  margin:0px auto;
+
+#button-modal,#predaj,#button{
+    background-color: transparent;
+    border:none;
+    color:#EA3C12;
+    transition: 0.75s ease-in-out;
 }
-#forma{
-  margin-left:75px;
+#button-modal:hover,#predaj:hover,#button:hover{
+    background-color: #EA3C12;
+    color:#fff;
 }
-ul{
-  list-style-type:none;
-}
-ul li{
-  display: inline;
+
+.block {
+    padding: 15px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 footer{
-   margin-bottom:-100px;
+    position: relative;
+    left: 0;
+    width: 100% !important;
+    bottom: 0;
 }
-.crveno-bg{
-  background-color: #EA3C12;
-  color:#fff;
+hr{
+    width: 83%;
+    margin:0px auto;
 }
