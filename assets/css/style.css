@@ -18,6 +18,9 @@ h1{
     color:#fff;
     border:none;
 }
+#hamburger{
+    margin-right:5vw;
+}
 .usluge-link{
     font-size: 1.5vw;
 }
@@ -86,4 +89,18 @@ footer{
 hr{
     width: 83%;
     margin:0px auto;
+}
+.price-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.align{
+    text-align: right;
+}
+.tranzicija{
+    transition: 0.75s ease-in-out;
+}
+.tranzicija:hover{
+    transform: scale(1.075);
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
 }
