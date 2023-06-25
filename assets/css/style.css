@@ -104,3 +104,6 @@ hr{
     transform: scale(1.075);
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
 }
+#moja-slika{
+    width: 30vw;
+}
