@@ -12,6 +12,21 @@
     #hamburger{
         margin-left:45px;
     }
+   #nestaje{
+    display: none !important;
+   }
 }
+@media screen and (max-width: 576px){
+    #struktura-autor{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+   }
+   #moja-slika{
+    width: 70vw;
+   }
+}
+
 
     
